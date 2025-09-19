@@ -4,10 +4,11 @@ body{
 }
 .book-library{
 	background-color:#ffffff;
+	box-shadow:2px;
 }
-.book author{
+.book p{
 	color:#777777;
 }
-.book button{
+.book div{
 	color:#2ecc71;
 }
