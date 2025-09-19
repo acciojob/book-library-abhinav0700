@@ -1,14 +1,28 @@
-/*  your css code here. If applicable */
-body{
-	background-color:#f8f8f8;
+/* styles.css */
+body {
+	background-color: #f8f8f8;
+	font-family: Arial, sans-serif;
 }
-.book-library{
-	background-color:#ffffff;
-	box-shadow:2px;
+
+h1 {
+	text-align: center;
+	color: #333333;
 }
-.book p{
-	color:#777777;
+
+.book-library {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+	padding: 20px;
 }
-.book div{
-	color:#2ecc71;
+
+.book p {
+	color: #777777;
+}
+
+.price {
+	background-color: #2ecc71;
+	color: #ffffff;
+	border-radius: 5px;
+	padding: 5px 10px;
+	display: inline-block;
 }
